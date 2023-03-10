@@ -1,0 +1,17 @@
+.container-input-button{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 3rem;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 5rem;
+}
+
+.container-screen{
+  width: 60%;
+  margin: 3rem auto;
+  background-color: #917081;
+  padding: 1rem;
+  border-radius: 15px;
+}
