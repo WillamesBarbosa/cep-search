@@ -14,7 +14,14 @@ function Home() {
   };
 
   const handleSetUrl = () => {
-    setUrl(`https://viacep.com.br/ws/${address}/json/`);
+    if (address.length <= 7 || address.length >= 9) {
+      setUrl('');
+      console.log(url);
+    } else {
+      setUrl(`https://viacep.com.br/ws/${address}/json/`);
+      console.log(url);
+    }
+    console.log(address.length);
   };
 
   return (
