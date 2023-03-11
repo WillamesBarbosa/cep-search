@@ -9,7 +9,12 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   text-align: left;
-  color: #f0a818;
+}
+
+.screen.status{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+
 }
 
 .screen-error-text{
